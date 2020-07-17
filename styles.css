@@ -17,6 +17,9 @@ body {
 img{
   border:1px;
   border-radius:70%;
+  width:15.5rem;
+  position:relative;
+  top:20px;
 }
 .bold {
   font-weight: 700;
@@ -34,10 +37,11 @@ img{
   height: auto;
   display: flex;
   margin: 50px auto;
+  
 }
 
 .resume .resume_left {
-  width: 240px;
+  width: 250px;
   background: #0bb5f4;
 }
 
