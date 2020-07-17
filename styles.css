@@ -6,8 +6,8 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  position:absolute;
-  top:15px;
+  position:relative;
+  top:25px;
 }
 
 body {
