@@ -114,36 +114,12 @@ img{
   color: #b1eaff;
 }
 
-.resume .resume_left .resume_skills ul li {
+.resume .resume_left  ul li {
   display: flex;
   margin-bottom: 10px;
   color: #b1eaff;
   justify-content: space-between;
   align-items: center;
-}
-
-.resume .resume_left .resume_skills ul li .skill_name {
-  width: 25%;
-}
-
-.resume .resume_left .resume_skills ul li .skill_progress {
-  width: 60%;
-  margin: 0 5px;
-  height: 5px;
-  background: #009fd9;
-  position: relative;
-}
-
-.resume .resume_left .resume_skills ul li .skill_per {
-  width: 15%;
-}
-
-.resume .resume_left .resume_skills ul li .skill_progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #fff;
 }
 
 .resume .resume_left .resume_social .semi-bold {
@@ -197,14 +173,22 @@ img{
   border: 2px solid #0bb5f4;
 }
 
-.resume .resume_right .resume_education ul li:after,
-.resume .resume_right .resume_internship ul li:after {
+.resume .resume_right .resume_education ul li:after{
   content: "";
   position: absolute;
-  top: 14px;
+  top: 2vh;
   left: -21px;
   width: 2px;
-  height: 115px;
+  height: 19vh;
+  background: #0bb5f4;
+}
+.resume_internship ul li:after {
+  content: "";
+  position: absolute;
+  top: 2.4vh;
+  left: -21px;
+  width: 2px;
+  height: 22vh;
   background: #0bb5f4;
 }
 
@@ -230,8 +214,8 @@ img{
   content: "";
   position: absolute;
   top: 40px;
-  right: -52px;
-  width: 50px;
+  right: -8vw;
+  width: 8vw;
   height: 2px;
   background: #0bb5f4;
 }
