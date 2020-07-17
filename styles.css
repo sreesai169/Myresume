@@ -161,8 +161,9 @@ img{
   margin-bottom: 0;
 }
 
-.resume .resume_right .resume_education ul li:before,
-.resume .resume_right .resume_internship ul li:before {
+.resume .resume_right .resume_internship ul li:before,
+.resume .resume_right .resume_education ul li:before
+ {
   content: "";
   position: absolute;
   top: 5px;
@@ -176,22 +177,22 @@ img{
 .resume .resume_right .resume_education ul li:after{
   content: "";
   position: absolute;
-  top: 2vh;
+  top: 14px;
   left: -21px;
   width: 2px;
-  height: 19vh;
+  height: 18.5vh;
   background: #0bb5f4;
 }
 .resume_internship ul li:after {
   content: "";
   position: absolute;
-  top: 2.4vh;
+  top: 14px;
   left: -21px;
   width: 2px;
   height: 22vh;
   background: #0bb5f4;
-}
 
+}
 .resume .resume_right .resume_hobby ul {
   display: flex;
   justify-content: space-between;
@@ -214,8 +215,8 @@ img{
   content: "";
   position: absolute;
   top: 40px;
-  right: -8vw;
-  width: 8vw;
+  right: -5.5vw;
+  width: 5.5vw;
   height: 2px;
   background: #0bb5f4;
 }
