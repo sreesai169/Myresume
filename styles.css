@@ -23,7 +23,8 @@ body {
 img{
   border:1px solid ;
   border-radius:100%;
-  width:15.5rem;
+  width:15rem;
+  height:15rem;
   position:relative;
   top:20px;
 }
