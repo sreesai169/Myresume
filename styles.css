@@ -26,7 +26,8 @@ img{
   width:15rem;
   height:15rem;
   position:relative;
-  top:20px;
+  top:25px;
+  left:5px;
 }
 .bold {
   font-weight: 700;
@@ -184,25 +185,8 @@ img{
   border: 2px solid #0bb5f4;
 }
 
-.resume .resume_right .resume_education ul li:after{
-  content: "";
-  position: absolute;
-  top: 14px;
-  left: -21px;
-  width: 2px;
-  height: 18.5vh;
-  background: #0bb5f4;
-}
-.resume_internship ul li:after {
-  content: "";
-  position: absolute;
-  top: 14px;
-  left: -21px;
-  width: 2px;
-  height: 22vh;
-  background: #0bb5f4;
 
-}
+
 .resume .resume_right .resume_hobby ul {
   display: flex;
   justify-content: space-between;
@@ -221,19 +205,6 @@ img{
   font-size: 30px;
 }
 
-.resume .resume_right .resume_hobby ul li:before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  right: -5.5vw;
-  width: 5.3vw;
-  height: 2px;
-  background: #0bb5f4;
-}
-
-.resume .resume_right .resume_hobby ul li:last-child:before {
-  display: none;
-}
 .copyright{
   position:absolute;
   left:55%;
