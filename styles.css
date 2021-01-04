@@ -185,7 +185,10 @@ img{
   border: 2px solid #0bb5f4;
 }
 
-
+.resume_internship a{
+  color:#fff;
+  text-decoration:none;
+}
 
 .resume .resume_right .resume_hobby ul {
   display: flex;
